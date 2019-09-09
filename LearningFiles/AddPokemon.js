@@ -31,3 +31,18 @@ exports.handler = function index(e, ctx, callback) {
         }
     });
 }
+
+//Testcode:
+/*
+{
+  "namn": "Charmeleon",
+  "beskrivning": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+  "utvecklingar": [
+    "Charmander",
+    "Charmeleon",
+    "Charizard"
+  ],
+  "typer": "fire",
+  "bild": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charmeleon.png"
+}
+*/
