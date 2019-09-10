@@ -31,7 +31,8 @@ exports.handler = function(e, ctx, callback)
           callback(null,{
                 statusCode: 200, // Bad Request
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
                 },
                 body: JSON.stringify({
                     message: "Ett skepp kommer lastat med EN Pokemon",
@@ -56,7 +57,8 @@ let scanningParameters = {
         callback(null,{
                 statusCode: 200, // Bad Request
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json', 
+                    'Access-Control-Allow-Origin': '*',
                 },
                 body: JSON.stringify({
                     message: "Ett skepp kommer lastat med Pokemon",
